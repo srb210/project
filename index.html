@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>soumyas personal site</title>
+  <meta charset="utf-8">
+  <title>soumya calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon (1).ico">
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </head>
   <body>
+   <div class="container">
+     <p class="calculator"><b>Calculator</b></p>
+       <input id="screen" class="text" name="output" >
+     <table>
+       <tr>
+           <td><button type="button" class="btn btn-outline-danger">( </button></td>
+           <td><button type="button" class="btn btn-outline-danger">) </button></td>
+           <td><button type="button" class="btn btn-outline-danger btn1">c</button></td>
+           <td><button type="button" class="btn btn-outline-danger">%</button></td>
+         </tr>
+          <tr>
+             <td><button type="button" class="btn btn-outline-danger">7</button></td>
+             <td><button type="button" class="btn btn-outline-danger">8</button></td>
+             <td><button type="button" class="btn btn-outline-danger">9</button></td>
+            <td><button type="button" class="btn btn-outline-danger btn1">+</button></td>
+            </tr>
+           <tr>
+              <td><button type="button" class="btn btn-outline-danger">4</button></td>
+              <td><button type="button" class="btn btn-outline-danger">5</button></td>
+               <td><button type="button" class="btn btn-outline-danger">6</button></td>
+              <td><button type="button" class="btn btn-outline-danger btn1">-</button></td>
+              </tr>
+             <tr>
+                 <td><button type="button" class="btn btn-outline-danger">1</button></td>
+               <td><button type="button" class="btn btn-outline-danger">2</button></td>
+               <td><button type="button" class="btn btn-outline-danger" >3</button></td>
+               <td><button type="button" class="btn btn-outline-danger" >X</button></td>
+               </tr>
+               <tr>
+                 <td><button type="button" class="btn btn-outline-danger" >00</button></td>
+                 <td><button type="button" class="btn btn-outline-danger" >0</button></td>
+                 <td><button type="button" class="btn btn-outline-danger" >.</button></td>
+                 <td><button type="button" class="btn btn-outline-danger" >/</button></td>
+                 </tr>
+                 <tr class="bottomrow">
+                   <td><button type="button" class="btn btn-outline-danger" >power</button></td>
+                   <td><button type="button" class="btn btn-outline-danger" >√</button></td>
+                 <td><button type="button" class="btn btn-outline-danger" >,</button></td>
+                   <td><button type="button" class="btn btn-outline-danger" >=</button></td>
+                   </tr>
+                   </table>
+                   <p class="name"> soumya Calculator </p>
+                  </div>
+   <p class="note">
+         # when you want to do power, calculator shows " Math.pow( " Then you have to enter the number and power Respectively <br /> ➔  Like  Math.pow( 3,2) <br /> in Above, input number is 3 and  power is 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➔  3² = 9
+    </p>
 
-  </body>
-</html>
+     <script src="calculater.js" charset="utf-8"></script>
+     </body>
+
+   </html>
