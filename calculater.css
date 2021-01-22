@@ -1,0 +1,82 @@
+.container{ 
+       color:#fff;
+            margin-top: 20px;
+                 width: 430px;
+                      outline-color: aqua;
+                           outline-width: 5px;
+                                outline-style:solid;
+                                     background-color: #ff4c68;
+                                        }
+                                           .calculator{
+                                                  margin-top: 0px;
+                                                      font-size: 5.24rem;
+                                                          position: absolute;
+                                                             font-family: serif;
+                                                                }
+                                                                   .text{
+                                                                          font-size: 1.4rem;
+                                                                               margin-top: 110px;
+                                                                                    height: 50px;
+                                                                                         width:394px;
+                                                                                              border-radius: 10px;
+                                                                                                   background-color: #f1f3f8 ;
+                                                                                                      }
+                                                                                                         table{
+                                                                                                                margin-top: 10px;
+                                                                                                                     text-align: center;
+                                                                                                                        }
+                                                                                                                           .bottomrow{
+                                                                                                                                  padding-bottom: 10px;
+                                                                                                                                     }
+                                                                                                                                        .btn{
+                                                                                                                                               font-size: 1.3rem;
+                                                                                                                                                  color:white;
+                                                                                                                                                     height: 50px;
+                                                                                                                                                        width: 93px;
+                                                                                                                                                             margin:2px;
+                                                                                                                                                              }
+                                                                                                                                                                 .btn1{
+                                                                                                                                                                        font-size: 1.6rem;
+                                                                                                                                                                           }
+                                                                                                                                                                              .name{
+                                                                                                                                                                                     color:white;
+                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                               font-size: 2rem;
+                                                                                                                                                                                             font-family: 'Lobster', cursive;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                   .note{
+                                                                                                                                                                                                          width:29%;
+                                                                                                                                                                                                               margin-left: 550px;
+                                                                                                                                                                                                                  }
+
+
+                                                                                                                                                                                                                           @media (max-width:1088px) {
+                                                                                                                                                                                                                                .container{
+                                                                                                                                                                                                                                         background-size:cover;
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                               .calculator{
+                                                                                                                                                                                                                                                        margin-left: 5px;
+                                                                                                                                                                                                                                                              font-size: 4.5rem;
+                                                                                                                                                                                                                                                                   position: absolute;
+                                                                                                                                                                                                                                                                        font-family: serif;
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                           .note{
+                                                                                                                                                                                                                                                                                    width:50%;
+                                                                                                                                                                                                                                                                                           margin-left: 25%;
+                                                                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                                                                              @media screen and (max-width:767px) and (min-width:0px) {
+                                                                                                                                                                                                                                                                                                  .container{
+     background-size:cover;
+        }
+           .calculator{
+                  margin-left: 5px;
+                      font-size: 4.5rem;
+                            position: absolute;
+                            font-family: serif;
+                              }
+                                 .note{
+                                         width:89%;
+                                                margin-left: 6%;
+                                                   }
+                                                      }
